@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-docker",
+  "version": "1.0.0",
+  "description": "A simple Node.js app in Docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
